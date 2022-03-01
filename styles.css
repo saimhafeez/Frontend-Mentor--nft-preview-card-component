@@ -40,10 +40,9 @@ span {
 }
 
 .container {
-  width: 90%;
-  max-width: 300px;
-  margin: auto auto;
-  padding: 2rem;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
   border-radius: 1rem;
   background-color: #15273f;
 }
@@ -146,4 +145,10 @@ span {
 
 .column-1 {
   width: 15%;
+}
+
+@media (min-width: 450px) {
+  .container {
+    max-width: 250px;
+  }
 }
